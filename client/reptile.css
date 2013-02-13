@@ -1,0 +1,46 @@
+.subtitle { margin-top: -10px; }
+.subtitle.logo { color: #666666; }
+.subtitle.logo.below { margin-left: 75px; margin-bottom: 20px; }
+
+#hunts { list-style-type: none; }
+#hunts li { font-size: 120%; padding-bottom: 10px; }
+#hunts .number { font-size: 250%; margin-right: 5px; }
+
+.tile { height: 200px; border-radius: 6px; }
+.tile.main { background: #889c77; color: #4d4d4d; }
+.tile.lightup { background: #98a49a; color: #4d4d4d; }
+.tile.inactive { color: #999999; background: #eeeeee; }
+.tile.clickable { cursor: pointer; }
+
+.tile.next.inactive { border-color: #889c77; }
+.tile.next.lightup { border-color: #4d4d4d; }
+.tile.next.right { border-left-style: solid; border-left-width: 15px; }
+.tile.next.left { border-right-style: solid; border-right-width: 15px; }
+.tile.next.top { 
+	height: 185px;
+	border-bottom-style: solid;
+	border-bottom-width: 15px;
+}
+.tile.next:hover { color: #4d4d4d; border-color: #4d4d4d; }
+
+.arrow {
+}
+
+.arrow.inactive { border-color: #889c77; }
+
+.clock { font-size: 520%; }
+.pomodoro { color: #6a835c; }
+.timesup { margin-bottom: 33px; margin-left: 10px; }
+.timesup span { font-size: 200%; padding: 1px 31px 3px 31px; color: #4d4d4d; }
+
+.reward-hint { padding-bottom: 10px; }
+
+.reptile-btn:hover { color: #4d4d4d; background: #fff; }
+.reptile-btn {
+	cursor: pointer;
+	font-size: 160%;
+	padding: 1px 31px 5px 31px;
+	color: #889c77;
+	background: #4d4d4d;
+	border-radius: 6px;
+}

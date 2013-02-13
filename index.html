@@ -1,0 +1,65 @@
+<head>
+	<title>reptile.io</title>
+	<meta charset="utf-8">
+</html>
+</head>
+<body>
+	{{> reptile}}
+</body>
+
+<template name='reptile'>
+	<div class='row'>
+		<div class='span4'>
+			<div class='hero-unit tile lightup'>
+				<h1>reptile.<small class='logo subtitle'>io</small></h1>
+				<p class='logo subtitle below'>the web's playlist</p>
+				<p><span class='reptile-btn'>log in</span></p>
+				<p><span class='reptile-btn'>sign up</span></p>
+			</div>
+		</div>
+
+		<div class='span4'>
+			<div class='hero-unit next tile top lightup'>
+				<h1 class='reward-header'>reward!</h1>
+				<div class='reward-hint'>(pick yours)</div>
+				<p><span class='reptile-btn'>small</span></p>
+				<p><span class='reptile-btn'>average</span></p>
+				<p><span class='reptile-btn'>humongous</span></p>
+			</div>
+		</div>
+
+		<div class='span4'>
+			<div class='hero-unit tile inactive'>
+				<ul id='hunts'>
+					<li><span class='number'>0</span> completed</li>
+					<li><span class='number'>4</span> till next long break</li>
+					<li><span class='number'>0</span> on a spree</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class='row'>
+		<div class='span4'>
+			<div class='hero-unit clickable next tile left inactive'>
+				<h1>take a break.</h1>
+				<div>(skip reward)</div>
+			</div>
+		</div>
+
+		<div class='span4'>
+			<div class='hero-unit tile main'>
+				<p class='timesup'><span>time's up!</span></p>
+				<p class='clock'>00:00</p>
+			</div>
+		</div>
+
+		<div class='span4'>
+			<div class='arrow right'></div>
+			<div class='hero-unit clickable next tile right inactive'>
+				<h2>have another pomodoro.</h2>
+				<div class='subtitle'>(skip reward and break)</div>
+			</div>
+		</div>
+	</div>
+</template>
