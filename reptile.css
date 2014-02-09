@@ -17,9 +17,9 @@
 .tile.next.right { border-left-style: solid; border-left-width: 15px; }
 .tile.next.left { border-right-style: solid; border-right-width: 15px; }
 .tile.next.top { 
-	height: 185px;
-	border-bottom-style: solid;
-	border-bottom-width: 15px;
+  height: 185px;
+  border-bottom-style: solid;
+  border-bottom-width: 15px;
 }
 .tile.next:hover { color: #4d4d4d; border-color: #4d4d4d; }
 
@@ -37,10 +37,10 @@
 
 .reptile-btn:hover { color: #4d4d4d; background: #fff; }
 .reptile-btn {
-	cursor: pointer;
-	font-size: 160%;
-	padding: 1px 31px 5px 31px;
-	color: #889c77;
-	background: #4d4d4d;
-	border-radius: 6px;
+  cursor: pointer;
+  font-size: 160%;
+  padding: 1px 31px 5px 31px;
+  color: #889c77;
+  background: #4d4d4d;
+  border-radius: 6px;
 }
